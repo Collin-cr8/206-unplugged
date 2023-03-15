@@ -171,7 +171,9 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  
+}
+.hero-area h1 {
+  width:90%
 }
 /*aside*/
 aside {
