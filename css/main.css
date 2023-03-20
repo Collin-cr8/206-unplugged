@@ -103,12 +103,14 @@ body {
 a {
 	color: #e2e3ed;
   text-decoration: none;
+  
 }
  
 h2 {
  font-family: 'Poppins', sans-serif;
  font-size: 1.875em;
  font-weight: 500;
+ margin: 0;
 }
 
 h3, 
@@ -168,7 +170,7 @@ header .content-wrapper {
   width: 90%;
   height: 1px;
   margin: 10px 0 20px 0;
-  color: #3a3a3a;
+  background: #3a3a3a;
 }
 
 header figure {
@@ -194,6 +196,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  margin: 0;
 }
 
 header nav ul li {
@@ -252,6 +255,7 @@ footer .copyright {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -350,7 +354,7 @@ input[type=button] {
 }
 
 .reviews h3 {
-  width: 50%;
+  width: 55%;
   margin: 20px 0;
 }
 
@@ -550,6 +554,7 @@ header nav {
 
 header nav ul { 
   justify-content: space-between;
+  list-style-type: none;
 }
 
 .header-divider {
@@ -658,7 +663,7 @@ footer .copyright {
 }
 
 .mission-content p {
-    width: 44%;
+    width: 45%;
 }
 
 .map figure {
@@ -671,7 +676,7 @@ footer .copyright {
     align-items: flex-start;
 }
 
-.contact h4 {
+.contact-content h4 {
   font-size: 1.5em;
 }
 /* ==========================================================================
@@ -776,7 +781,7 @@ footer .copyright {
    
   .mission h2,
   .contact-section .content-wrapper h2 {
-    width: 90%;
+    width: 95%;
     font-size: 3em;
   }
   .map figure {
