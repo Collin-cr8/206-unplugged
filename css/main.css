@@ -100,6 +100,11 @@ body {
  color:#e2e3ed;
 }
  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 a {
 	color: #e2e3ed;
   text-decoration: none;
@@ -194,7 +199,7 @@ header nav {
 header nav ul {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
   margin: 0;
 }
@@ -713,6 +718,11 @@ footer .copyright {
 
   header {
     padding: 15px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
   }
 
   h2 {
